@@ -37,3 +37,6 @@ nnoremap <space> za
 
 " enable clipboard from OSX
 set clipboard=unnamed
+
+"nerdtree
+nnoremap <silent> <tab> :NERDTree<CR>
