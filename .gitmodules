@@ -1,3 +1,6 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/plugins/start/sensible"]
+	path = pack/plugins/start/sensible
+	url = https://github.com/tpope/vim-sensible.git
