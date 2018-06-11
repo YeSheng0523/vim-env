@@ -40,3 +40,11 @@ set clipboard=unnamed
 
 "nerdtree
 nnoremap <silent> <tab> :NERDTree<CR>
+
+" SGR protocol to scroll
+set mouse=a
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+end
