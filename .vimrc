@@ -48,3 +48,5 @@ if has("mouse_sgr")
 else
     set ttymouse=xterm2
 end
+
+let g:airline_theme='badwolf'
