@@ -64,3 +64,14 @@ silent! helptags ALL
 
 " set split view below so linting docs will not pop up on top
 set splitbelow
+
+" start nerdtree when no file specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" ignore pyc files
+set wildignore+=*.pyc
+let NERDTreeIgnore = ['\.pyc$']
+
+" disable vim-elm keybinding
+let g:elm_setup_keybindings = 0
