@@ -19,3 +19,15 @@
 [submodule "pack/plugins/start/vim-airline-themes"]
 	path = pack/plugins/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/plugins/start/vim-elm"]
+	path = pack/plugins/start/vim-elm
+	url = https://github.com/ElmCast/elm-vim.git
+[submodule "pack/plugins/start/completor"]
+	path = pack/plugins/start/completor
+	url = https://github.com/maralla/completor.vim.git
+[submodule "pack/plugins/start/vim-colorschemes"]
+	path = pack/plugins/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

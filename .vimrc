@@ -18,7 +18,7 @@ set fileformat=unix
 syntax on
 
 " colorscheme
-colorscheme neverland-darker
+colorscheme jellybeans
 
 " UTF8
 set encoding=utf-8
@@ -49,4 +49,18 @@ else
     set ttymouse=xterm2
 end
 
+" enable powerline font and airline theme
 let g:airline_theme='badwolf'
+let g:airline_powerline_fonts = 1
+
+" Put these lines at the very end of your vimrc file.
+
+" Load all plugins now.
+" Plugins need to be added to runtimepath before helptags can be generated.
+packloadall
+" Load all of the helptags now, after plugins have been loaded.
+" All messages and errors will be ignored.
+silent! helptags ALL
+
+" set split view below so linting docs will not pop up on top
+set splitbelow
